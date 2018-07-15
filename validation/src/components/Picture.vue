@@ -18,14 +18,16 @@
         <p>We wanna know you more!</p>
 
         <div class="prcture-box">
-            <input type="file" accept="image/gif, image/jpeg, image/png">
-            <div class="prcture">
-                <i class="fas fa-images"></i>
-                <div>UPLOAD UP TO 3 PHOTOS
-                    MAX SIZE: 150*150px</div>
-            </div>
-            <br>
-            <button>SUBMIT & NEXT</button>
+            <form action="http://localhost:8080/?#/Method">
+                <input type="file" accept="image/gif, image/jpeg, image/png" >
+                <div class="prcture">
+                    <i class="fas fa-images"></i>
+                    <div>UPLOAD UP TO 3 PHOTOS
+                        MAX SIZE: 150*150px</div>
+                </div>
+                <br>
+                <input class="sub" type="submit" value="SUBMIT & NEXT">
+            </form>
         </div>
     </div>
 </template>
